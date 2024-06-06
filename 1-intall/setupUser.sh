@@ -107,7 +107,7 @@ update_conf()
 
 USER="devops"
 GROUP="devops"
-passw="today@1234"
+passw="Pupu@2332"
 
 if [ -f /etc/os-release ];then
    osname=`grep ID /etc/os-release | egrep -v 'VERSION|LIKE|VARIANT|PLATFORM' | cut -d'=' -f2 | sed -e 's/"//' -e 's/"//'`
